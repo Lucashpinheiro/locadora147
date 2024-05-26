@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Locadora 147 Aluguel de Carros</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sedan+SC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-3" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0">Locadora 147</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre" class="nav-link">
+                            <i class="bi bi-house me-1"></i>
+                            Sobre a Locadora
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#esportivos" class="nav-link">
+                            <i class="bi bi-car-front me-1"></i>
+                            Esportivos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#economicos" class="nav-link">
+                            <i class="bi bi-fuel-pump me-1"></i>
+                            Econômicos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#contato" class="nav-link">
+                            <i class="bi bi-chat-right me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho">
+        <section>
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="2000">
+                        <img src="./img/aventador.jpg" class="w-100" alt="veyron">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="./img/ferrari.jpg" class="w-100" alt="ferrari">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="./img/mercedez.jpg" class="w-100" alt="mercedez">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="./img/porsche.jpg" class="w-100" alt="porsche">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="3"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5" id="sobre">
+                <div class="container">
+                    <div class="row">
+                        <div class="imagem-sobre col-md-5">
+                            <img src="./img/showroom.jpg" class="d-block w-100 rounded" alt="mulher inconstada em Carro">
+                        </div>
+                        <div class="col-md-7">
+                            <h2 class="section-title locadora-titulo">Sobre a Locadora</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum facilis quibusdam rerum, animi recusandae, quisquam a officia omnis ducimus commodi voluptatum alias exercitationem in minima nihil enim laudantium quaerat incidunt.</p>
+                            <h3 class="section-title">Sobre os carros</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus nisi blanditiis natus, doloremque, cum fugit rerum quisquam id, earum magni laboriosam magnam modi sed eum libero voluptatibus ad? Debitis, perspiciatis.</p>
+                            <ul class="lista p-0">
+                                <li>
+                                    Esportivos
+                                </li>
+                                <li>
+                                    Econômicos
+                                </li>
+                                <li>
+                                    Dia a dia
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="pt-1 pb-5 text-center" id="esportivos">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title">Esportivos</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="./img/lamborghini.jpg" class="d-block h-75 w-100 rounded" alt="lamborghini">
+                        <h3 class="section-title mt-3 fs-4">
+                            <i class="bi bi-heart-pulse-fill"></i>
+                            Dream Car
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, sapiente fugit repudiandae voluptatum animi aspernatur autem magni quam.</p>
+                    </div>
+                    <div class="col-md-6 fast">
+                        <img src="./img/dodge.jpg" class="d-block h-75 w-100 rounded" alt="dodge">
+                        <h3 class="section-title mt-3 fs-4">
+                            <i class="bi bi-activity"></i>
+                            Fast & Furious
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, sapiente fugit repudiandae voluptatum animi aspernatur autem magni quam.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="pt-5 pb-5 text-center" id="economicos">
+            <div class="container">
+                <div class="row">
+                    <h3 class="section-title mt-1">Econômicos</h3>
+                    <div class="row">
+                        <h2 class="section-title mt-1 fs-5">Para gastar pouco combustível</h2>
+                    </div>
+                    <div class="row pt-4">
+                        <aside class="col-md-2">
+                            <nav class="nav nav-pills flex-column">
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#carro-elétrico" class="nav-link text-start active">Carros Elétricos</button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#carro-popular" class="nav-link text-start">Carros Popular</button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#bicicletas" class="nav-link text-start">Bicicletas</button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#patinete" class="nav-link text-start">Patinetes</button>
+                            </nav>
+                        </aside>
+                        <div class="col-md-10 opcoes">
+                            <div class="tab-content">
+                                <div class="tab-pane active" id="carro-elétrico">
+                                    <div class="row">
+                                        <div class="col-md-5">
+                                            <img class="d-block w-100" src="./img/carro-eletrico.jpg" alt="carro-elétrico">
+                                            <h5 class="fw-bold mt-2">Carro Elétrico</h5>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="carro-popular">
+                                    <div class="row">
+                                        <div class="col-md-5">
+                                            <img class="d-block w-100" src="./img/carro-popular.jpg" alt="carro-popular">
+                                            <h5 class="fw-bold mt-2">Carro Popular</h5>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="bicicletas">
+                                    <div class="row">
+                                        <div class="col-md-5">
+                                            <img class="d-block w-100" src="./img/bicicleta.jpg" alt="bicicleta">
+                                            <h5 class="fw-bold mt-2">Bicicleta</h5>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="patinete">
+                                    <div class="row">
+                                        <div class="col-md-5">
+                                            <img class="d-block w-100" src="./img/patinete.jpg" alt="patinete">
+                                            <h5 class="fw-bold mt-2">Patinete</h5>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contato" class="mb-4">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center pt-3 pb-3">Fale conosco</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <form>
+                            <div>
+                                <label for="nome" class="form-label">Nome</label>
+                                <input type="text" id="nome" class="form-control mb-2" required>
+                            </div>
+                            <div>
+                                <label for="email" class="form-label">E-mail</label>
+                                <input type="email" id="email" class="form-control mb-2" required>
+                            </div>
+                            <div>
+                                <label for="telefone" class="form-label">Telefone</label>
+                                <input type="tel" id="telefone" class="form-control mb-2">
+                            </div>
+                            <div>
+                                <label for="mensagem" class="form-label">Mensagem</label>
+                                <textarea class="form-control" id="mensagem" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-success fw-bold mt-2">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5 redes">
+                        <div class="row"><h3 class="section-title fs-5">
+                            <i class="bi bi-hand-thumbs-up"></i>
+                            Redes Sociais
+                        </h3>
+                        <ul class="social-links">
+                            <li class="fs-4">
+                                <a href="#">
+                                    <i class="bi bi-instagram icones "></i>
+                                </a>
+                            </li>
+                            <li class="fs-4 ms-3 me-3">
+                                <a href="#">
+                                    <i class="bi bi-facebook icones"></i> 
+                                </a>
+                            </li>
+                            <li class="fs-4">
+                                <a href="#">
+                                    <i class="bi bi-whatsapp icones"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                        <div class="row"><h3 class="section-title fs-5">
+                            <i class="bi bi-compass"></i>
+                            Endereço
+                        </h3>
+                        <P>Rua Inocentes nº182, Bairro Pânico em SP - São Paulo - SP</P>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="./lib/jquery.mask.min.js"></script>
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>

@@ -1,0 +1,102 @@
+:root {
+    --primary-color: #114232;
+    --secondary-color: #D4E7C5;
+    --third-color: #637A9F;
+    --fourth-color: #fff;
+    --fith-color:#000;
+    --primary-font: "Sedan SC", serif;
+    --secondary-font: "Roboto", sans-serif;
+}
+
+body {
+    font-family: var(--secondary-font);
+    background-color: var(--secondary-color);
+}
+
+.navbar {
+    background-color: var(--primary-color);
+}
+
+#cabecalho .nav .nav-link.active {
+    background: var(--fourth-color);
+    color: var(--primary-color);
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover  {
+    color: var(--fourth-color);
+}
+
+.navbar-brand {
+    font-family: var(--primary-font);
+}
+
+.navbar-toggler {
+    background-color: var(--fourth-color);
+}
+
+.lista li {
+    list-style: none;
+}
+
+.carousel-item > img {
+    height: 650px;
+    width: 100%;
+}
+
+.imagem-sobre > img {
+    height: 400px;
+}
+.section-title {
+    font-family: var(--primary-font);
+}
+
+.nav .nav-link.active {
+    background-color: var(--primary-color);
+    font-weight: bold;
+}
+
+.nav .nav-link {
+    color: var(--fith-color);
+} 
+
+.icones {
+    color: var(--primary-color);
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item > img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .locadora-titulo {
+        margin-top: 16px;
+    }
+
+    .fast {
+        padding-top: 36px;
+    }
+
+    .fast p {
+        margin-bottom: 0;
+    }
+
+    .opcoes img {
+        margin-top: 16px;
+    }
+
+    .redes {
+        padding-top: 32px;
+    }
+}
